@@ -16,6 +16,14 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
+    
+@bot.command()
+async def 接続確認(ctx):
+    await ctx.send('Conoha鯖に接続しています')
+    
+@bot.command()
+async def Test(ctx):
+    await ctx.send('確認できました')
 
 
 bot.run(token)
