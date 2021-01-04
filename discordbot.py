@@ -22,7 +22,7 @@ async def Test(ctx):
     await ctx.send('確認できました')
 
 @bot.command()
-async def dl(ctx):
-    await ctx.send('https://www.youtube.com/watch?v=3qTOgiBVSDc')
+async def YouTubeBL(ctx):
+    await ctx.send('mp4:https://file41.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ2a3NQS1Y5ZGlxVlZIOCtyZ1NuYzAveVFRc1N1QmtwNTAvM3VxbE1OcHdPUEJkbmJyc0hNNEFzempSZmRXMElBNmR2c1ZqRUZXWStNTXByRDNLdHR3R1ZOa2xFMFRlbUtQeHNDZ2toQWJoZTViT0dyVWRJRHh0cGxobTNUS2M4L25WcVFYeHZYaSt0SExRZlJBbHRUSXBDOGIwOHFCZWdqdWJYN25wdzhSRHFENlA2NGhNenZtUXNWeW5sZUpuNzRzbUNoTWtOWU5VdzUrb2lxaVk5aFpOMU1GYXlWdjV1dlR5 mp3:javascript:void(0);')
 
 bot.run(token)
