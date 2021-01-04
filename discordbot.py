@@ -18,12 +18,11 @@ async def ping(ctx):
     await ctx.send('pong')
     
 @bot.command()
-async def https://www.youtube.com/watch?v=3qTOgiBVSDc(ctx):
-    await ctx.send('mp4:https://file41.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ2a3NQS1Y5ZGlxVlZIOCtyZ1NuYzAveVFRc1N1QmtwNTAvM3VxbE1OcHdPUEJkbmJyc0hNNEFzempSZmRXMElBNmR2c1ZqRUZXWStNTXByRDNLdHR3R1ZOa2xFMFRlbUtQeHNDZ2toQWJoZTViT0dyVWRJRHh0cGxobTNUS2M4L25WcVFYeHZYaSt0SExRZlJBbHRUSXBDOGIwOHFCZWdqdWJYN25wdzhSRHFENlA2NGhNenZtUXNWeW5sZUpuNzRzbkJ4RWlOWU5VdzUrb2lxaVk5aFpOMU1GYXlWdjV1dlR5 mp3:http://dl132.y2mate.com/?file=M3R4SUNiN3JsOHJ6WWQ2a3NQS1Y5ZGlxVlZIOCtyZ1NuYzAveVFRc1N1QmtwNTAvM3VxbE1Ob0JJN2RjaTR5ckhkdHI1VC9NZVkzT1lpbVF1WTB5VjNHRXNvUWJ0QytjdHR3R0M0d2pjQStxbHVlM2szOTFoZ3ErTTVQYkVLQlRZMk4wbkVoaXd6YWF3dlRIcWlxcm9rbUNvRVNoV2hjdXNYVUdMYWFXOUlkWTNIdk9lLzdwMXMxVSszYkd0YzBiZzZmSzhoTC8yYmRqNjRndENoY2dKTlpPejhmbXlhUT0%3D')
-    
-@bot.command()
 async def Test(ctx):
     await ctx.send('確認できました')
 
+@bot.command()
+async def dl(ctx):
+    await ctx.send('https://www.youtube.com/watch?v=3qTOgiBVSDc')
 
 bot.run(token)
