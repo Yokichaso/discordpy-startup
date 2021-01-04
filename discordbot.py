@@ -24,6 +24,10 @@ async def Test(ctx):
 @bot.command()
 async def GoogleConnect(ctx):
     await ctx.send('確認できました')
+    
+@bot.command()
+async def help(ctx):
+    await ctx.send('https://twitter.com/Yokichaso')
 
 @bot.command()
 async def YouTubeDL(ctx):
